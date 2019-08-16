@@ -1,4 +1,5 @@
 dd=int(input())
-res=dd*(dd+1)
-re1=res/2
-print(re1)
+sum=0
+for i in range(0,dd+1):
+  sum=sum+dd
+print(sum)
