@@ -1,6 +1,9 @@
 bb=input()
 list=['a','e','i','o','u']
-if(bb in a):
-  print("Vowel")
+if(bb.isalpha()==True):
+  if(bb in list):
+    print("Vowel")
+  else:
+    print("Consonant")
 else:
-  print("Consonant")
+  print("Invalid")
