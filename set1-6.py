@@ -11,7 +11,7 @@ def checkYear(year):
         return False
   
 # Driver Code  
-year = 2000
+year = int(input())
 if(checkYear(year)): 
     print("yes") 
 else: 
