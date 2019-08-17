@@ -1,6 +1,11 @@
-bb=[int(input())]
-aaa=bb[::-1]
-if(bb==aaa):
+num11=int(input())
+rnum1=0
+n=num11
+while(num11!=0):
+  t=num11%10
+  rnum1=rnum1*10+t
+  num11=int(num11/10)
+if(n==rnum1):
   print("yes")
 else:
   print("no")
