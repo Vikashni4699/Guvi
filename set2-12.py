@@ -1,5 +1,5 @@
 bb=[int(input())]
-aaa=b[::-1]
+aaa=bb[::-1]
 if(bb==aaa):
   print("yes")
 else:
